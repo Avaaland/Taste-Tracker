@@ -1,7 +1,7 @@
 console.log("Hello World!");
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
 
-let favoriteFoods = ["pizza", "burger,", "steak", "tacos", "pasta", "seafood"]
+let favoriteFoods = ["pizza", "burger", "steak", "tacos", "pasta", "seafood"]
 
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
@@ -32,7 +32,7 @@ for (let i = 0; i < favoriteFoods.length; i++) {
     // "Trust me — ____ is delicious."
 
     function printFoodRecommendation(foodName) {
-      console.log(`Have you ever tried $(foodName)?`);
+      console.log(`Have you ever tried ${foodName}?`);
       console.log(`I always recommend ${foodName} to friends. `);
       console.log(`Trust me, ${foodName} is delicious. `);
     }
